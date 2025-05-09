@@ -1,6 +1,6 @@
 from transformers import Trainer, TrainingArguments, AutoModelForCausalLM, AutoTokenizer, DefaultDataCollator, DataCollatorForTokenClassification, AutoConfig
 from dataset.minimind_dataset import LLMDataset
-from models.model_mininind import Config, LLM
+from models.model_minimind import Config, LLM
 
 
 
