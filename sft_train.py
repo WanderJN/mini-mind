@@ -12,7 +12,7 @@ from transformers import Trainer, TrainingArguments, AutoModelForCausalLM, AutoT
 from dataset.minimind_dataset import SFTDataset, LLMDataset
 from transformers import AutoTokenizer, AutoModelForCausalLM, AutoConfig
 import torch
-from models.model_mininind import LLM, Config
+from models.model_minimind import LLM, Config
 
 if __name__ == '__main__':
     AutoConfig.register("small_model", Config)
